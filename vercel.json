@@ -1,8 +1,12 @@
 {
-    "redirects": [
-      {
-        "source": "/terminal/:match*",
-        "destination": "https://terminal-webpage.vercel.app/:match*"
-      }
-    ]
-  }
+  "redirects": [
+    {
+      "source": "/terminal/",
+      "destination": "https://terminal-webpage.vercel.app/"
+    },
+    {
+      "source": "/terminal/:match*",
+      "destination": "https://terminal-webpage.vercel.app/:match*"
+    }
+  ]
+}
