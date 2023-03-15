@@ -1,8 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/terminal/:match*",
-        "destination": "https://terminal-webpage.vercel.app/:match*"
+        "source": "/terminal",
+        "destination": "https://terminal-webpage.vercel.app/"
       }
     ]
   }
