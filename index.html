@@ -1,0 +1,65 @@
+<!-- ******************************************
+    *  Author : Bernardo 
+    *  Created On : Wed Mar 15 2023
+    *  File : index.html
+    
+    * good design and best practices are for idiots
+    * - with love, bernardo
+    
+    
+    * RIP marquee, never forgotten
+******************************************* -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bernardo Oliveira">
+    <title>Web Projects</title>
+    <style>
+        body {
+            background-image: url("./assets/bg.jpg");
+            background-repeat: repeat;
+            background-size: 5%;
+        }
+
+        .main {
+            display: block;
+        }
+
+        .title {
+            display: block;
+            text-align: center;
+            font-size: 50px;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        .title p {
+            font-size: 20px;
+            font-family: "Arial", sans-serif;
+        }
+        .title a {
+            color: #000;
+            font-weight: bold;
+        }
+
+        .main h3 {
+            text-align: center;
+            font-size: 30px;
+            font-family: "Arial", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="main">
+        <marquee class="title" direction="right" scrollamount="10">
+            <h1>Web Projects</h1>
+            <p>by <a href="https://github.com/helloimbernardo/">bernardo</a></p>
+        </marquee>
+        <h3><a href="./terminal-webpage/">Terminal Webpage</a></h3>
+    </span>
+</body>
+
+</html>
