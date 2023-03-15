@@ -45,7 +45,7 @@ function Index() {
                 </a>
               </p>
               <p className="ml-2 font-mono text-white pb-2">
-                This page is <a href="https://github.com/helloimbernardo/web-projects/terminal-webpage"><b>Open Source</b></a>
+                This page is <a href="https://github.com/helloimbernardo/web-projects/tree/main/terminal-webpage"><b>Open Source</b></a>
               </p>
             </span>
           </Window>
